@@ -104,6 +104,98 @@ console
 }while(conditon);
 
 ---
+##홀수의 합이 최초로 500을 넘어갈 때, 그 카운트는?
+
+int sum = 0;
+int cnt = 0;
+for(int i =0; i <500; i++){
+
+	if(i%2 != 0){
+		sum+=i;
+		cnt ++;
+	}
+
+	if(sum>=500){
+		System.out.println(cnt);
+	}
+}
+
+---
+##성적 데이터를 입력받고 학점계산
+SqlSession ss;
+List list = ss.select();
+for(List l:list){
+
+	if(l.get(i)>90){
+	System.out.println("A");
+
+	}else if(l.get(i)>80){
+	System.out.println("B");
+
+	}else{
+	System.out.println("C");
+
+	}
+}
+---
+##데이터를 입력받고 최댓값 구하기
+int cnt = 0;
+int max = 0;
+Scanner sc = new Scanner(System.in);
+System.out.println("X값:");
+int x = sc.nextInt();
+if(max < X || max == x){
+	max = x
+	cnt++;
+
+}
+System.out.println(max);
+
+---
+1-2...+999-1000의값
+
+int sum =0;
+int i = 1;
+
+while(i=<1000){
+switch(i){
+
+	case i%2==0 : sum -= i;
+	i++;	
+	break;
+
+	case i%2!=0 : sum+=i;
+	i++;
+	break;	
+
+	
+}
+break;
+}
+
+
+System.out.println(sum);
+
+---
+
+반복 명령문
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
