@@ -1,0 +1,26 @@
+수의 표현
+
+비트연산!
+시프트연산>>|<<|>>>
+and&&
+or||
+not!
+
+베타적or ^(XOR):XOR 또는 배타적 OR은 비트 조작에 사용되는 논리 연산자이며 두 부울 값이 다른 경우에만 true를 반환합니다. 
+그렇지 않으면 거짓을 반환합니다.		
+
+
+List:인덱스(순서)o
+Set:중복허용x
+Map:키-값
+
+stack:LIFO(last in first output)
+queue:FIFO(first in first output)
+
+Linked List:제네릭고정
+
+서버:정보를제공
+클라이언트:정보를사용
+
+
+
