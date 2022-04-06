@@ -1,0 +1,26 @@
+DDL(data definition Language) : Create Drop Alter
+
+DML(data Manipulation Language) : insert delete update select
+
+grant:권한부여
+revoke:권한취소
+
+무결성: 개체무결성, 참조무결성
+
+
+CREATE TABLE(
+	열이름 데이터타입 NOT NULL DEFAULT값
+	primary key(열이름, [열이름2...열이름n],
+	[unique(열이름, [열이름2...열이름n],
+	[foreign key(열이름, [열이름2...열이름n],
+		references 기본테이블[(열이름1, ..열이름n)]
+		[ON DELETE 옵션]
+		[ON UPDATE 옵션]
+	[CONSTRAINT제약조건이름][CHECK조건식])
+	[TABLESPACE 테이블스페이스이름]
+);
+
+
+
+
+
