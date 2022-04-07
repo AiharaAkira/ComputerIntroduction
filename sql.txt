@@ -20,6 +20,23 @@ CREATE TABLE(
 	[TABLESPACE 테이블스페이스이름]
 );
 
+행삭제 
+DELETE FROM 테이블 이름 WHERE 조건식;
+
+<>:작지도않고크지도않다(다르다)
+
+뷰:
+1.하나 이상의 기본테이블로부터 유도되어 만들어진 *가상 테이블*
+2.관리자만 생성가능 (권한부여 grant)
+3.Alter문을 이용하여 변경 x, drop문을 사용하여 변경가능, 원래테이블이 변경되면 뷰도 자동적으로 변경
+4.하나의 테이블로 여러개의 뷰 생성 가능
+CREATE VIEW 뷰이름(커럼 이름)AS SELECT [WITH CHECK OPTION];
+
+* [WITH CHECK OPTION]:제약조건
+
+DROP VIEW 뷰이름 {RESTRICT | CASCADE};
+기본키: 중복x
+외래키:  참조하는 테이블에서 1개의 키(속성 또는 속성의 집합)에 해당하고, 참조하는 측의 관계 변수는 참조되는 측의 테이블의 키
 
 
 
